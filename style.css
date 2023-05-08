@@ -53,9 +53,9 @@ h1 {
 }
 
 p {
-    font-size:18px;
+    font-size:24px;
     color:#e5e7eb;
-    line-height:30px;
+    line-height:40px;
 }
 
 .second_section {
@@ -75,9 +75,10 @@ p {
 }
 
 img {
-    margin:50px;
-    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-bottom: 110px;
     width:600px;
+    margin-top:50px;
 }
 
 .first_button {
@@ -85,8 +86,10 @@ img {
     color:white;
     margin-top:40px;
     width:100px;
-    height:34px;
+    height:50px;
     border-radius:10px;
+    font-size: 17px;
+    border-color: white;
 
 }
 
@@ -99,21 +102,53 @@ img {
     line-height:90px;
 }
 
-.third_section {
-
-
-}
-
-h2{
+h2 {
    font-size:36px;
    color:#1f2937;
    font-weight:bolder;
    text-align:center;
 }
 
-.boxes_with_text {
-
+.box_container {
     display:flex;
     
 }
 
+.box_square {
+    border:2px solid #3882f6;
+    padding:100px;
+    border-radius:50px;
+    width:100px;
+    height:120px;
+}
+
+.boxes_with_text {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    gap:12px;
+    padding:70px;
+    flex:1;
+}
+
+.box_text{
+    color:#1F2937;
+}
+
+.fourth_section {
+    background-color: #e5e7eb;
+    padding:120px;
+}
+
+.quotes {
+    color:#1f2937;
+    font-size:36px;
+    font-style:italic;
+    text-align: center;
+    line-height:70px;
+}
+
+h4 {
+    text-align: right;
+    font-size:25px;
+}
