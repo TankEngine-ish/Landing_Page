@@ -121,7 +121,6 @@ h2 {
     height:120px;
 }
 
-
 .boxes_with_text {
     display:flex;
     align-items:center;
@@ -167,8 +166,6 @@ h4 {
     height:48%;
     display:flex;
     border-radius:10px;
-    
-
 }
 
 .blue_box {
@@ -177,7 +174,6 @@ h4 {
     flex-direction:column;
     justify-content: center;
     margin-left:300px;
-    
     
 }
 
