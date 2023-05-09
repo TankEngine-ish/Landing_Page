@@ -121,6 +121,7 @@ h2 {
     height:120px;
 }
 
+
 .boxes_with_text {
     display:flex;
     align-items:center;
@@ -182,7 +183,7 @@ h4 {
 
 h3 {
     font-size:29px;
-    color:#e5e7eb;
+    color:whitesmoke;
 }
 
 .right_side {
@@ -201,4 +202,21 @@ h3 {
     border-width: 5px;
     font-size: 17px;
     border-color: white;
+}
+
+.footer {
+   background-color: #1F2937;
+   height:160px;
+}
+
+h5 {
+    color:#e5e7eb;
+    font-size:30px;
+    margin-top:55px;
+}
+
+.last_title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
