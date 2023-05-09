@@ -185,7 +185,7 @@ h3 {
 .right_side {
     display:flex;
     align-items:center;
-    margin-right:260px;
+    margin-right:260px; 
 }
 
 .second_button {
